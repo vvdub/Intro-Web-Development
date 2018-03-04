@@ -1,0 +1,51 @@
+/* Dusten Peterson | Web Development 3610 */
+h1 {
+	text-align: center;	
+	font-size: 22pt;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+
+h2 {
+	text-align: left;
+	font-size: 18pt;
+}
+
+h1, h2 {
+	color:  #A4A400;
+	font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+	text-decoration: underline;
+	letter-spacing: 0.25em;
+}
+
+h2 span {
+	background-color: #F0F0F0;
+}
+
+p, li { 
+	color: #404040;
+	font-size: 11pt;
+	font-family: "Georgia", "Garamond", serif font;
+}
+
+a {
+	color: #A4A400;
+}
+
+body {
+    background-image: url("P1Files/silverware.jpg");
+    background-color: #cccccc;
+}
+
+blockquote {
+	font-style: italic;
+	background: #FFFFA8; 
+}
+
+ul.pie {
+	list-style-image: url("P1Files/pie_bullet.png");
+}
+
+
+
+

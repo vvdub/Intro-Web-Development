@@ -1,0 +1,88 @@
+/* Dusten Peterson | Web Development 3610 */
+h1 {
+	text-align: center;	
+	font-size: 22pt;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+
+h1, h2 {
+	color:  #A4A400;
+	font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+	text-decoration: underline;
+	letter-spacing: 0.25em;
+}
+
+h2 {
+	text-align: left;
+	font-size: 18pt;
+	letter-spacing: 0;
+	text-decoration: none;
+}
+
+h2 span {
+	background-color: #F0F0F0;
+}
+
+p, li { 
+	color: #404040;
+	font-size: 11pt;
+	font-family: "Georgia", "Garamond", serif font;
+}
+
+a {
+	color: #A4A400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:  #A4A400;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+ul {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+body {
+    background-image: url("P1Files/silverware.jpg");
+    background-color: #cccccc;
+}
+
+.comment{
+	background: #FFFFA8;
+}
+
+p {
+	float: right;
+	margin-top: 140px;
+}
+
+abbr {
+	text-decoration: underline;
+}

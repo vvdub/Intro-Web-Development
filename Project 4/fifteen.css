@@ -1,0 +1,35 @@
+/* Dusten Peterson | Web Development 3610 | jQuery Practice */
+body {
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+}
+
+#puzzlearea {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.tile {
+    background-image: url(fsc.png);
+    border: 5px solid black;
+    height: 90px;
+    width: 90px;
+    /* Needed these three to align text in the middle of div */
+    line-height: 90px; /* Has to be same height as div */
+    text-align: center;
+    vertical-align: middle;
+    /* Needed these three to align text in the middle of div */
+    position: absolute;
+    font-size: 40pt;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+.outline:hover {
+    border: 5px solid red;
+    color: red;
+    cursor: pointer;
+}

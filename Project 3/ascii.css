@@ -1,0 +1,54 @@
+/* Dusten Peterson | Web Development 3610 | JS Practice */
+body {
+  background-color: #CCCCFF;
+  font-family: sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 32pt;
+  text-align: center;
+  margin: 0;
+}
+
+#display {
+  text-align: center;
+}
+
+#displayarea {
+  height: 400px;
+  width: 90%;
+  font-size: 12pt;
+  font-family: monospace;
+  font-weight: bold;
+  margin: auto;
+  display: block;
+}
+
+#controls {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+fieldset {
+  display: inline-block;
+  border-style: solid;
+	border-width: 5px;
+	border-color: black;
+  vertical-align: top;
+  text-align: center;
+}
+
+#w3c {
+  float: right;
+}
+
+button {
+  position: relative;
+}
+
+legend {
+  text-align: left;
+}
